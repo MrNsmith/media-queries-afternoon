@@ -1,0 +1,134 @@
+.App {
+  background-image: url('https://media.discordapp.net/attachments/715934007283548241/725414921659088936/option-1-header-bg.jpg?width=1444&height=950');
+  background-size: contain;
+  background-repeat: repeat;
+  color:white
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+h3{
+  height:5px;
+  margin-bottom:0px;
+  font-size: 35px;
+}
+.App-header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  
+}
+.App-header h4{
+  box-sizing: border-box;
+  position: relative;
+  font-family: cursive;
+  color: yellow;
+  font-weight: 700;
+  left: 140px;
+
+  
+}
+.Nav-desktop {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+.Nav{
+  
+  
+  position: relative;
+  justify-content: space-around;
+  top:35px;
+  left: 60px;
+  padding-right: 75px;
+  box-sizing: border-box;
+  
+
+}
+.Main-body{
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  bottom: 650px;
+ 
+}
+.more-btn {
+  background-color: yellow;
+  width: 125px;
+  height: 50px;
+}
+.Nav-mobile{
+  display: none;
+
+}
+.dropdown{
+  display: none;
+}
+
+@media(max-width:1180px){
+  .App-header h4{
+    box-sizing: border-box;
+    position: relative;
+    font-family: cursive;
+    color: yellow;
+    font-weight: 700;
+    left: 100px;
+    margin-top: 10px;
+
+  }
+}
+@media(max-width:970px){
+  
+
+.header{
+  display: flex;
+  width: 100vw;
+  height: 55px;
+  margin-left: -170px;
+  
+  background-color: rgb(5, 4, 4);
+}
+
+ 
+
+.Nav-desktop{
+  display: none;
+}
+.Nav-mobile{
+  display: initial;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 150px;
+  position: relative;
+  top: 55px;
+
+  background-color: black;
+  
+
+}
+.dropdown{
+  display: initial;
+  position: fixed;
+  right:150px;
+  top: 10px;
+  width: 95px;
+  height: 40px;
+  background-color: yellow;
+  margin: 50 px;
+}
+.Navtwo{
+  position: relative;
+  box-sizing: border-box;
+  left:95px;
+  font-size: 14px;
+  
+
+}
+
+}
